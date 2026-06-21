@@ -8,10 +8,10 @@ export function Quote() {
         </div>
         <blockquote className="font-display text-3xl sm:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight">
           <span className="text-brand">"</span>
-          We don't chase attention.
+          We don't chase markets.
           <br />
-          We <em className="italic font-light">engineer</em> it — pixel by pixel,
-          impression by impression, until your audience can't look away.
+          We <em className="italic font-light">build</em> them — strategy by strategy,
+          campaign by campaign, until your brand owns the conversation.
           <span className="text-brand">"</span>
         </blockquote>
         <div className="mt-12 flex items-center gap-4">
