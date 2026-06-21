@@ -56,8 +56,8 @@ export function CTA() {
         </div>
 
         <div className="mt-16 flex items-center justify-between text-xs font-mono text-background/40">
-          <div>© {new Date().getFullYear()} per4max studio</div>
-          <div>made with signal · noise · taste</div>
+          <div>© {new Date().getFullYear()} per4max</div>
+          <div>strategy · consulting · media</div>
         </div>
       </div>
     </section>
