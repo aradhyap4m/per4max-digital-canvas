@@ -241,16 +241,16 @@ export function HeroDots() {
           <div className={ready ? "reveal-up" : "opacity-0"}>
             <div className="inline-flex items-center gap-2 rounded-full border border-border bg-background/70 backdrop-blur px-3 py-1 text-xs font-mono text-muted-foreground">
               <span className="h-1.5 w-1.5 rounded-full bg-brand animate-pulse" />
-              media · digital · performance
+              strategy · consulting · media
             </div>
             <h1 className="mt-6 font-display font-bold text-5xl sm:text-7xl lg:text-8xl leading-[0.95] tracking-tight mx-auto max-w-5xl">
-              Where signals
+              Strategy meets
               <br />
-              become <span className="text-brand">stories.</span>
+              <span className="text-brand">momentum.</span>
             </h1>
             <p className="mt-6 mx-auto max-w-xl text-base sm:text-lg text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. per4max is a media and
-              digital marketing studio connecting brands to the people who matter.
+              per4max is a digital marketing and consulting partner that helps brands
+              launch, grow, and transform — from go-to-market strategy to full-scale execution.
             </p>
             <div className="mt-8 flex flex-wrap gap-3 justify-center pointer-events-auto">
               <a

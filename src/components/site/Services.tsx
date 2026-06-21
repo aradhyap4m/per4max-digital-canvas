@@ -3,35 +3,43 @@ import { ArrowUpRight } from "lucide-react";
 const services = [
   {
     n: "01",
-    title: "Performance Marketing",
-    tag: "paid · search · social",
+    title: "Go To Market Strategy",
+    tag: "strategy · positioning · launch",
     body:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Full-funnel paid media across Meta, Google, TikTok and programmatic — engineered for CAC you can defend.",
-    points: ["Paid social", "Search & shopping", "Programmatic", "CRO"],
+      "End-to-end GTM planning that turns product-market fit into market dominance. We architect the path from idea to revenue — messaging, channel strategy, and launch sequencing.",
+    points: ["Market Research", "Positioning", "Launch Playbooks", "Revenue Planning"],
   },
   {
     n: "02",
-    title: "Content & Production",
-    tag: "studio · video · stills",
+    title: "Business Consulting",
+    tag: "growth · operations · transformation",
     body:
-      "An in-house studio that turns briefs into scroll-stoppers. Concept, shoot, edit, ship — all under one roof, all on one timeline.",
-    points: ["Video production", "Photography", "Motion design", "Editorial"],
+      "Strategic advisory for leaders who need clarity, not more reports. We diagnose bottlenecks, design operating models, and build roadmaps that teams can actually execute.",
+    points: ["Growth Strategy", "Operational Design", "KPI Frameworks", "Board Advisory"],
   },
   {
     n: "03",
-    title: "Brand & Strategy",
-    tag: "positioning · identity",
+    title: "Integrated Media Services",
+    tag: "media · planning · buying",
     body:
-      "The sharp end of strategy. We unearth what makes a brand magnetic, then dress it in identity systems built to last more than one campaign cycle.",
-    points: ["Positioning", "Identity systems", "Naming", "Messaging"],
+      "Unified media strategy across every touchpoint. We plan, buy, and optimize across traditional and digital channels — one budget, one team, one coherent message.",
+    points: ["Media Planning", "Programmatic", "Traditional Media", "Cross-Channel Optimization"],
   },
   {
     n: "04",
-    title: "Web & Product",
-    tag: "design · engineering",
+    title: "Digital Marketing & Transformation",
+    tag: "digital · performance · martech",
     body:
-      "Sites and products that feel as good as the work that drives traffic to them. Custom builds, headless stacks, and conversion-led design.",
-    points: ["Web design", "Engineering", "E-commerce", "Analytics"],
+      "Full-stack digital marketing that moves the needle. From paid acquisition to marketing automation, we build high-performing digital engines and transform how brands grow online.",
+    points: ["Paid Media", "SEO & Content", "Marketing Automation", "Analytics"],
+  },
+  {
+    n: "05",
+    title: "Experiential Events",
+    tag: "events · activations · experiences",
+    body:
+      "Live moments that audiences remember and share. From product launches to brand activations, we design experiences that create emotional connections and measurable buzz.",
+    points: ["Brand Activations", "Product Launches", "Pop-Ups", "Virtual & Hybrid Events"],
   },
 ];
 
@@ -43,7 +51,7 @@ export function Services() {
           / 03 — services
         </div>
         <h2 className="font-display text-4xl sm:text-6xl font-bold tracking-tight max-w-3xl">
-          A studio shaped like a <span className="text-brand">flywheel.</span>
+          Everything you need to <span className="text-brand">launch and grow.</span>
         </h2>
       </div>
 
@@ -73,7 +81,7 @@ export function Services() {
                         href="#contact"
                         className="inline-flex items-center gap-2 text-sm font-medium hover:text-brand transition-colors"
                       >
-                        Start a brief <ArrowUpRight size={16} />
+                        Start a conversation <ArrowUpRight size={16} />
                       </a>
                     </div>
                   </div>
