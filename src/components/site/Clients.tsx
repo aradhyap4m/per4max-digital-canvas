@@ -11,14 +11,14 @@ export function Clients() {
       <div className="mx-auto max-w-7xl px-6 mb-10 flex items-end justify-between gap-6">
         <div>
           <div className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-3">
-            / 04 — in good company
+            / 04 — partners in growth
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold tracking-tight">
-            Trusted by teams that ship.
+            The brands we build with.
           </h2>
         </div>
         <div className="hidden sm:block font-mono text-xs text-muted-foreground">
-          200+ brands · 14 countries
+          challengers · category leaders · global brands
         </div>
       </div>
       <div className="relative">

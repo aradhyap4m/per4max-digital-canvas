@@ -1,36 +1,36 @@
 import { useEffect, useRef, useState } from "react";
-import { Zap, Target, Sparkles, LineChart, Rocket } from "lucide-react";
+import { Compass, Layers, Cpu, BarChart3, Globe2 } from "lucide-react";
 
 const items = [
   {
-    icon: Zap,
-    title: "Velocity that compounds",
+    icon: Compass,
+    title: "Strategy-led, always",
     body:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. We ship campaigns in days, not quarters — every iteration faster than the last.",
+      "Every engagement starts with a sharp point of view. We map the market, the buyer, and the moment — so the work that follows is built on conviction, not guesswork.",
   },
   {
-    icon: Target,
-    title: "Precision targeting",
+    icon: Layers,
+    title: "Integrated by design",
     body:
-      "Audiences sliced by signal, not assumption. We find the exact rooms your buyers live in and walk you through the door.",
+      "Strategy, media, creative, and tech sit on one team and one P&L. No silos, no finger-pointing — just a single engine moving your brand forward.",
   },
   {
-    icon: Sparkles,
-    title: "Creative with teeth",
+    icon: Cpu,
+    title: "Tech and AI fluent",
     body:
-      "Beautiful work that performs. Our studio pairs art directors with data scientists so every frame earns its place on the timeline.",
+      "We operate the modern marketing stack — automation, AI, CRM, analytics — and use it to compress timelines and unlock outcomes legacy agencies can't match.",
   },
   {
-    icon: LineChart,
-    title: "Measurement, honestly",
+    icon: BarChart3,
+    title: "Outcomes over outputs",
     body:
-      "No vanity dashboards. Just the numbers that move the business, reported in the language of your boardroom.",
+      "We're measured the way our clients are: pipeline, revenue, share. Reporting is honest, frequent, and tied to the metrics that actually move the business.",
   },
   {
-    icon: Rocket,
-    title: "Built to scale",
+    icon: Globe2,
+    title: "Built for ambitious brands",
     body:
-      "From scrappy launches to global rollouts, the same team carries the work — no hand-offs, no dropped batons.",
+      "From category challengers to global leaders, we partner with teams who want to grow faster than the market — and have the appetite to do what it takes.",
   },
 ];
 
@@ -68,7 +68,7 @@ export function WhyUs() {
           {/* Content */}
           <div>
             <div className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-6">
-              / 02 — the difference
+              / 02 — why per4max
             </div>
             <div className="space-y-2 mb-8">
               {items.map((_, i) => (
