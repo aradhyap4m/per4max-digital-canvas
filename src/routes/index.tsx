@@ -10,16 +10,16 @@ import { CTA } from "@/components/site/CTA";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "per4max — Media & Digital Marketing Studio" },
+      { title: "per4max — Digital Marketing Agency" },
       {
         name: "description",
         content:
-          "per4max is a media and digital marketing studio engineering attention for brands that want to be impossible to ignore.",
+          "per4max is a full-service digital marketing agency. Go-to-market strategy, business consulting, integrated media, digital transformation, and experiential events — built for brands that want to grow on purpose.",
       },
-      { property: "og:title", content: "per4max — Media & Digital Marketing Studio" },
+      { property: "og:title", content: "per4max — Digital Marketing Agency" },
       {
         property: "og:description",
-        content: "Performance marketing, content, brand and product — under one roof.",
+        content: "Strategy, media, and technology under one roof. Built for ambitious brands.",
       },
     ],
     links: [

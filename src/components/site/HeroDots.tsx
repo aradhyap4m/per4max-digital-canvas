@@ -241,29 +241,30 @@ export function HeroDots() {
           <div className={ready ? "reveal-up" : "opacity-0"}>
             <div className="inline-flex items-center gap-2 rounded-full border border-border bg-background/70 backdrop-blur px-3 py-1 text-xs font-mono text-muted-foreground">
               <span className="h-1.5 w-1.5 rounded-full bg-brand animate-pulse" />
-              strategy · consulting · media
+              a modern digital marketing agency
             </div>
             <h1 className="mt-6 font-display font-bold text-5xl sm:text-7xl lg:text-8xl leading-[0.95] tracking-tight mx-auto max-w-5xl">
-              Strategy meets
+              Innovating the way
               <br />
-              <span className="text-brand">momentum.</span>
+              <span className="text-brand">brands grow.</span>
             </h1>
             <p className="mt-6 mx-auto max-w-xl text-base sm:text-lg text-muted-foreground">
-              per4max is a digital marketing and consulting partner that helps brands
-              launch, grow, and transform — from go-to-market strategy to full-scale execution.
+              per4max is a full-service digital marketing agency built for the modern era —
+              blending strategy, media, and technology to help ambitious brands win attention,
+              customers, and category leadership.
             </p>
             <div className="mt-8 flex flex-wrap gap-3 justify-center pointer-events-auto">
               <a
                 href="#services"
                 className="inline-flex items-center gap-2 rounded-md bg-foreground text-background px-5 py-3 text-sm font-medium hover:bg-brand transition-colors"
               >
-                See what we do
+                Explore our services
               </a>
               <a
                 href="#contact"
                 className="inline-flex items-center gap-2 rounded-md border border-border bg-background/80 backdrop-blur px-5 py-3 text-sm font-medium hover:border-foreground transition-colors"
               >
-                Get in touch
+                Talk to our team
               </a>
             </div>
           </div>

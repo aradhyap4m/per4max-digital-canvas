@@ -4,42 +4,42 @@ const services = [
   {
     n: "01",
     title: "Go To Market Strategy",
-    tag: "strategy · positioning · launch",
+    tag: "positioning · narrative · launch",
     body:
-      "End-to-end GTM planning that turns product-market fit into market dominance. We architect the path from idea to revenue — messaging, channel strategy, and launch sequencing.",
-    points: ["Market Research", "Positioning", "Launch Playbooks", "Revenue Planning"],
+      "We help brands enter, expand, and disrupt categories. From audience and competitive insight to positioning, narrative, and launch architecture — we build the playbook that turns ambition into traction.",
+    points: ["Market & Audience Research", "Positioning & Messaging", "Launch Architecture", "Revenue Modeling"],
   },
   {
     n: "02",
     title: "Business Consulting",
-    tag: "growth · operations · transformation",
+    tag: "advisory · growth · transformation",
     body:
-      "Strategic advisory for leaders who need clarity, not more reports. We diagnose bottlenecks, design operating models, and build roadmaps that teams can actually execute.",
-    points: ["Growth Strategy", "Operational Design", "KPI Frameworks", "Board Advisory"],
+      "Senior advisory for founders and CMOs navigating growth, change, or scale. We diagnose the real bottlenecks, design operating models that work, and partner with leadership to execute against them.",
+    points: ["Growth Strategy", "Operating Model Design", "Marketing Org Design", "Board & C-Suite Advisory"],
   },
   {
     n: "03",
     title: "Integrated Media Services",
-    tag: "media · planning · buying",
+    tag: "planning · buying · optimization",
     body:
-      "Unified media strategy across every touchpoint. We plan, buy, and optimize across traditional and digital channels — one budget, one team, one coherent message.",
-    points: ["Media Planning", "Programmatic", "Traditional Media", "Cross-Channel Optimization"],
+      "One team, one media plan, every channel. We plan and buy across digital, programmatic, social, OTT, and traditional — orchestrating spend around the audiences and moments that actually drive results.",
+    points: ["Media Strategy & Planning", "Programmatic & Paid Social", "Connected TV & OOH", "Cross-Channel Optimization"],
   },
   {
     n: "04",
     title: "Digital Marketing & Transformation",
-    tag: "digital · performance · martech",
+    tag: "performance · martech · automation",
     body:
-      "Full-stack digital marketing that moves the needle. From paid acquisition to marketing automation, we build high-performing digital engines and transform how brands grow online.",
-    points: ["Paid Media", "SEO & Content", "Marketing Automation", "Analytics"],
+      "Full-stack digital execution and the systems behind it. We run performance campaigns, build CRM and lifecycle programs, and modernize the marketing stack so growth is repeatable, not lucky.",
+    points: ["Performance & Paid Media", "SEO, Content & Organic", "CRM, Lifecycle & Automation", "Martech & Analytics"],
   },
   {
     n: "05",
     title: "Experiential Events",
-    tag: "events · activations · experiences",
+    tag: "activations · events · IRL + virtual",
     body:
-      "Live moments that audiences remember and share. From product launches to brand activations, we design experiences that create emotional connections and measurable buzz.",
-    points: ["Brand Activations", "Product Launches", "Pop-Ups", "Virtual & Hybrid Events"],
+      "Live moments that earn attention long after the room empties. Launches, summits, pop-ups, and hybrid experiences designed for emotion, content, and measurable lift.",
+    points: ["Brand Activations", "Product & Press Launches", "Pop-Ups & Field Marketing", "Virtual & Hybrid Events"],
   },
 ];
 
@@ -48,11 +48,15 @@ export function Services() {
     <section id="services" className="relative bg-surface-muted">
       <div className="mx-auto max-w-7xl px-6 pt-24 pb-12">
         <div className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-4">
-          / 03 — services
+          / 03 — what we do
         </div>
         <h2 className="font-display text-4xl sm:text-6xl font-bold tracking-tight max-w-3xl">
-          Everything you need to <span className="text-brand">launch and grow.</span>
+          Five capabilities. <span className="text-brand">One growth engine.</span>
         </h2>
+        <p className="mt-6 max-w-2xl text-muted-foreground text-lg">
+          We operate as an extension of your team — designing the strategy, running the media,
+          and wiring up the technology that turns marketing into a compounding asset.
+        </p>
       </div>
 
       <div>

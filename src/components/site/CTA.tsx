@@ -7,16 +7,16 @@ export function CTA() {
       <div className="absolute -top-40 -right-40 h-[480px] w-[480px] rounded-full bg-brand/40 blur-3xl" />
       <div className="relative mx-auto max-w-7xl px-6 py-32">
         <div className="text-xs font-mono text-background/50 uppercase tracking-widest mb-6">
-          / 05 — let's build
+          / 05 — let's grow
         </div>
         <h2 className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight max-w-4xl">
-          Got a brand that
+          Ready to grow
           <br />
-          deserves <span className="text-brand">attention?</span>
+          <span className="text-brand">on purpose?</span>
         </h2>
         <p className="mt-8 max-w-lg text-background/70 text-lg">
-          Tell us what you're building. We'll come back within 24 hours with a point of view —
-          not a deck.
+          Tell us where your brand is headed. We'll come back within 24 hours with a
+          point of view — not a pitch deck.
         </p>
         <div className="mt-12 flex flex-wrap items-center gap-4">
           <a
@@ -38,26 +38,26 @@ export function CTA() {
 
         <div className="mt-32 grid sm:grid-cols-3 gap-8 pt-12 border-t border-background/15 text-sm">
           <div>
-            <div className="font-mono text-xs text-background/40 uppercase tracking-widest mb-2">Studio</div>
-            <div>123 Signal St.<br />Brooklyn, NY</div>
+            <div className="font-mono text-xs text-background/40 uppercase tracking-widest mb-2">New business</div>
+            <div>hello@per4max.co</div>
           </div>
           <div>
-            <div className="font-mono text-xs text-background/40 uppercase tracking-widest mb-2">Press</div>
-            <div>press@per4max.co</div>
+            <div className="font-mono text-xs text-background/40 uppercase tracking-widest mb-2">Careers</div>
+            <div>careers@per4max.co</div>
           </div>
           <div>
-            <div className="font-mono text-xs text-background/40 uppercase tracking-widest mb-2">Social</div>
+            <div className="font-mono text-xs text-background/40 uppercase tracking-widest mb-2">Follow</div>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-brand">IG</a>
-              <a href="#" className="hover:text-brand">LI</a>
+              <a href="#" className="hover:text-brand">LinkedIn</a>
+              <a href="#" className="hover:text-brand">Instagram</a>
               <a href="#" className="hover:text-brand">X</a>
             </div>
           </div>
         </div>
 
         <div className="mt-16 flex items-center justify-between text-xs font-mono text-background/40">
-          <div>© {new Date().getFullYear()} per4max</div>
-          <div>strategy · consulting · media</div>
+          <div>© {new Date().getFullYear()} per4max — a digital marketing agency</div>
+          <div>strategy · media · technology</div>
         </div>
       </div>
     </section>
